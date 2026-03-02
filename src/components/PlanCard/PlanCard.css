@@ -13,14 +13,12 @@
   background-color: #f9f9f9;
 }
 
-/* Estado destacado (esPopular = true) */
 .destacado {
-  border: 3px solid #6366f1; /* Borde más grueso */
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2); /* Sombra para resaltar */
-  transform: scale(1.05); /* Lo hace un 5% más grande para que destaque más */
+  border: 3px solid #6366f1;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2); 
+  transform: scale(1.05); 
 }
 
-/* Estilos extra para que se vea bonito */
 .recomendado {
   background-color: #6366f1;
   color: white;
