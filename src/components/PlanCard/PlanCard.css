@@ -1,0 +1,38 @@
+/* Estilos generales para todas las tarjetas */
+.tarjeta {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  margin: 10px;
+  font-family: sans-serif;
+}
+
+.normal {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+/* Estado destacado (esPopular = true) */
+.destacado {
+  border: 3px solid #6366f1; /* Borde más grueso */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2); /* Sombra para resaltar */
+  transform: scale(1.05); /* Lo hace un 5% más grande para que destaque más */
+}
+
+/* Estilos extra para que se vea bonito */
+.recomendado {
+  background-color: #6366f1;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.8em;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.precio {
+  font-size: 1.5em;
+  font-weight: bold;
+}
