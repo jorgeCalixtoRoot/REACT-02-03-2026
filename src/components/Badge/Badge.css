@@ -1,0 +1,32 @@
+.badge {
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  margin: 5px;
+  font-weight: bold;
+}
+
+/* Estado: Agotado (0) */
+.agotado {
+  background-color: #e0e0e0; /* Fondo gris */
+  color: #757575;
+  text-decoration: line-through; /* Texto tachado */
+}
+
+/* Estado: Crítico (1 - 10) */
+.critico {
+  background-color: #ff9800; /* Fondo naranja */
+  color: white;
+}
+
+/* Estado: Normal (> 10) */
+.normal {
+  background-color: #2196f3; /* Fondo azul */
+  color: white;
+}
+
+.stock-count {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
